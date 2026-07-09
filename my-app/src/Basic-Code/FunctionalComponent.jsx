@@ -1,0 +1,9 @@
+function Greeting()
+{
+    const name="vikram";
+    return(
+        <>
+        <h1>Hello, {name}</h1>
+        </>
+    )
+}
