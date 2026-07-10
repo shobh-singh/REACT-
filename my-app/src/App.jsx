@@ -19,6 +19,7 @@ import OnMouseOver_OnDoubleClick from "./Events/OnMouseOver-OnDoubleClick";
 import Arrays from "./Basic-Code/Arrays";
 import Objects from "./Basic-Code/Objects";
 import Example from "./Condition_Rendring/Example2";
+import Example1 from "./Props/Example1";
 
 
 
@@ -134,6 +135,6 @@ export default function App() {
     //<GetPro></GetPro>
 
     //<PostPro></PostPro>
-    <Example></Example>
+    <Example1 name="vikram" age={25}></Example1>
   );
 }
