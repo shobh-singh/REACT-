@@ -1,4 +1,3 @@
-import './app.css';
 
 function ExternalCss()
 {

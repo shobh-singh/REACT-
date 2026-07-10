@@ -13,6 +13,7 @@ import PostPro from "./Project/PostPro";
 import FunctionalComponent from "./Basic-Code/FunctionalComponent";
 import InlineCss from "./Basic-Code/InlineCss";
 import ExternalCss from "./Basic-Code/ExternalCss";
+import FunctionEvents from "./Basic-Code/Function&Events";
 
 
 
@@ -128,7 +129,7 @@ export default function App() {
     //<GetPro></GetPro>
 
     //<PostPro></PostPro>
-    <ExternalCss></ExternalCss>
+    <FunctionEvents></FunctionEvents>
     
   );
 }
