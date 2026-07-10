@@ -12,6 +12,7 @@ import GetPro from "./Project/GetPro";
 import PostPro from "./Project/PostPro";
 import FunctionalComponent from "./Basic-Code/FunctionalComponent";
 import InlineCss from "./Basic-Code/InlineCss";
+import ExternalCss from "./Basic-Code/ExternalCss";
 
 
 
@@ -127,7 +128,7 @@ export default function App() {
     //<GetPro></GetPro>
 
     //<PostPro></PostPro>
-    <InlineCss></InlineCss>
+    <ExternalCss></ExternalCss>
     
   );
 }
