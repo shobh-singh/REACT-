@@ -17,6 +17,7 @@ import FunctionEvents from "./Events/Function&onClick";
 import OnChange from "./Events/OnChange";
 import OnMouseOver_OnDoubleClick from "./Events/OnMouseOver-OnDoubleClick";
 import Arrays from "./Basic-Code/Arrays";
+import Objects from "./Basic-Code/Objects";
 
 
 
@@ -132,6 +133,6 @@ export default function App() {
     //<GetPro></GetPro>
 
     //<PostPro></PostPro>
-     <Arrays></Arrays>
+     <Objects></Objects>
   );
 }
