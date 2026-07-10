@@ -13,7 +13,9 @@ import PostPro from "./Project/PostPro";
 import FunctionalComponent from "./Basic-Code/FunctionalComponent";
 import InlineCss from "./Basic-Code/InlineCss";
 import ExternalCss from "./Basic-Code/ExternalCss";
-import FunctionEvents from "./Basic-Code/Function&Events";
+import FunctionEvents from "./Events/Function&onClick";
+import OnChange from "./Events/OnChange";
+import OnMouseOver_OnDoubleClick from "./Events/OnMouseOver-OnDoubleClick";
 
 
 
@@ -129,7 +131,6 @@ export default function App() {
     //<GetPro></GetPro>
 
     //<PostPro></PostPro>
-    <FunctionEvents></FunctionEvents>
-    
+    <OnMouseOver_OnDoubleClick></OnMouseOver_OnDoubleClick>
   );
 }
