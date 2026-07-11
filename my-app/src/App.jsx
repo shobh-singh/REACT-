@@ -20,6 +20,7 @@ import Arrays from "./Basic-Code/Arrays";
 import Objects from "./Basic-Code/Objects";
 import Example from "./Condition_Rendring/Example2";
 import Example1 from "./Props/Example1";
+import Count1 from "./State1/Count";
 
 
 
@@ -135,6 +136,7 @@ export default function App() {
     //<GetPro></GetPro>
 
     //<PostPro></PostPro>
-    <Example1 name="vikram" age={25}></Example1>
+    // <Example1 name="vikram" age={25}></Example1>
+    <Count1></Count1>
   );
 }
