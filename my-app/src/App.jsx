@@ -21,6 +21,10 @@ import Objects from "./Basic-Code/Objects";
 import Example from "./Condition_Rendring/Example2";
 import Example1 from "./Props/Example1";
 import Count1 from "./State1/Count";
+import ToggleText from "./State1/ToggleText";
+import LikeButton from "./State1/LikeButton";
+import UserProfile from "./State1/UserProfile";
+import Student from "./State1/Student";
 
 
 
@@ -137,6 +141,6 @@ export default function App() {
 
     //<PostPro></PostPro>
     // <Example1 name="vikram" age={25}></Example1>
-    <Count1></Count1>
+    <Student></Student>
   );
 }
