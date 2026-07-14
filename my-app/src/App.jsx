@@ -25,6 +25,7 @@ import ToggleText from "./State1/ToggleText";
 import LikeButton from "./State1/LikeButton";
 import UserProfile from "./State1/UserProfile";
 import Student from "./State1/Student";
+import Forms1 from "./Forms/Forms1";
 
 
 
@@ -141,6 +142,6 @@ export default function App() {
 
     //<PostPro></PostPro>
     // <Example1 name="vikram" age={25}></Example1>
-    <Student></Student>
+    <Forms1></Forms1>
   );
 }
