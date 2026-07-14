@@ -17,7 +17,7 @@ function Forms1() {
         console.log(formData)
       }}
     >
-      {/* Yahan formData.firstName use karo, sirf firstName nahi */}
+    
       <input type="text" value={formData.firstName} placeholder="First Name"
         onChange={(e) => setFormData({ ...formData, firstName: e.target.value })} />
 
